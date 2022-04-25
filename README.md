@@ -46,7 +46,7 @@ sudo crontab
 <p>
 <h3>to disable webhook section comment out or remove this from the bottom of backup.sh</h3>
 <hr>
-/home/steam/dis-sh/discord.sh-master/discord.sh \<br>
+discord.sh \<br>
   --webhook-url="WEBHOOKURL" \<br>
   --username "NotificationBot" \<br>
   --avatar "https://i.imgur.com/12jyR5Q.png" \<br>
