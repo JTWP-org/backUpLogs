@@ -12,7 +12,7 @@ download zip to server and unzip
 <p>
 <h3>STEP2</h3>
 
-edit backup.sh to add webhook url where the logs will be saved and log file locations <br>
+edit backup.sh to add webhook url, where the logs will be saved and log file locations <br>
 `nano backup.sh`
 </p>
 
