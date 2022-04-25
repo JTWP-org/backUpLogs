@@ -1,7 +1,7 @@
 # backUpLogs
 automated tool to compress all logs and save every 24 hours
 
-<p>webhook section of code from https://github.com/ChaoticWeg/discord.sh</p>
+
 
 <p>
 <h3>STEP1</h3>
@@ -46,3 +46,4 @@ sudo crontab
 
 
 
+<p>webhook section of code from https://github.com/ChaoticWeg/discord.sh</p>
