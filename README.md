@@ -43,7 +43,16 @@ this will run 1x a day at 12am more info on timer settings can be viewed inside
 sudo crontab
 
 
+<p>
+<h3>to disable webhook section comment out or remove this from the bottom of backup.sh</h3>
 
+`/home/steam/dis-sh/discord.sh-master/discord.sh \
+  --webhook-url="WEBHOOKURL" \
+  --username "NotificationBot" \
+  --avatar "https://i.imgur.com/12jyR5Q.png" \
+  --text "Logs Logged !"
+`
+</p>
 
 
 <p>webhook section of code from https://github.com/ChaoticWeg/discord.sh</p>
