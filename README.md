@@ -14,7 +14,7 @@ download zip to server and unzip <br>
 <p>
 <h3>STEP2</h3>
 
-edit backup.sh to add webhook url , where the logs will be saved and log file locations for the logs and the discord.sh <br>
+edit backup.sh to add webhook url , where the logs will be saved and file locations for the logs and the discord.sh/backup.sh <br>
 all the settings u need to edit will be at the top of the file 
 `nano backup.sh`
 </p>
