@@ -18,7 +18,7 @@ tar czf $dest/$archive_file $backup_files
 
 #webhook you must enter your webhook url here in the place where WEBHOOKURL is 
 
-/home/steam/backUpLogs/discord.sh \
+discord.sh \
   --webhook-url="WEBHOOKURL" \
   --username "NotificationBot" \
   --avatar "https://i.imgur.com/12jyR5Q.png" \
