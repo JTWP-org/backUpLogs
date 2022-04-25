@@ -6,7 +6,7 @@ automated tool to compress all logs and save every 24 hours
 <p>
 <h3>STEP1</h3>
 
-download zip to server and unzip 
+download zip to server and unzip <br>
 `wget https://github.com/JTWP-org/backUpLogs/archive/refs/heads/main.zip ; unzip main.zip`
 
 </p>
