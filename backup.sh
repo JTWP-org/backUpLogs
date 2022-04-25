@@ -1,12 +1,27 @@
 #!/bin/bash
 
-# What to backup.
-backup_files="/home/steam/pavlovserver/Pavlov/Saved/Logs"
+#config here with these variables
 
-# this will only backup logs for pavlovserver if you have more than one u can add more inside the quotes backup_files="/home/steam/pavlovserver/Pavlov/Saved/Logs /home/steam/pavlovserver0/Pavlov/Saved/Logs /home/steam/pavlovserver1/Pavlov/Saved/Logs"
+###############################################################
+WEBHOOKURL='placeWebhookUrlHere'
+#Webhooks urls can be got from discord server
 
-# Where to backup to.
-dest="/home/steam/back-logs"
+FILELOC='where is backUpLogs-main located at'
+# I.E.  '/home/steam/backUpLogs-main'
+
+PAVSERVER='/home/steam/pavlovserver/Pavlov/Saved/Logs'
+# where the logs file is located '/home/steam/pavlovserver/Pavlov/Saved/Logs' if the default location if you used the wiki word for
+#word also to add more than one just add a space then the next server logs location
+# like this "/home/steam/pavlovserver/Pavlov/Saved/Logs /home/steam/pavlovserver0/Pavlov/Saved/Logs /home/steam/pavlovserver1/Pavlov/Saved/Logs"
+
+LOGVLT='whereToSaveLogs'
+
+##############################################################
+
+
+
+backup_files="$PAVSERVER"
+dest="$LOGVLT"
 
 # Create archive filename.
 day=$(date +%A)
@@ -16,10 +31,10 @@ archive_file="$hostname-1-$day.tgz"
 # Backup the files using tar.
 tar czf $dest/$archive_file $backup_files
 
-#webhook you must enter your webhook url here in the place where WEBHOOKURL is 
+#webhook you must enter your webhook url here in the place where WEBHOOKURL is
 
-/discord.sh \
-  --webhook-url="WEBHOOKURL" \
+$FILELOC/discord.sh \
+  --webhook-url="$WEBHOOKURL" \
   --username "NotificationBot" \
   --avatar "https://i.imgur.com/12jyR5Q.png" \
   --text "Logs Logged !"
