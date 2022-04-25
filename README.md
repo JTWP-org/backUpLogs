@@ -20,7 +20,7 @@ edit backup.sh to add webhook url, where the logs will be saved and log file loc
 <h3>STEP3</h3>
 give backup.sh perms to run 
 
-`$.sudo chmod backup.sh`
+`$.sudo chmod +x backup.sh`
 
 </p>
 
