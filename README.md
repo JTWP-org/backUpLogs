@@ -14,15 +14,15 @@ download zip to server and unzip <br>
 <p>
 <h3>STEP2</h3>
 
-edit backup.sh to add webhook url, where the logs will be saved and log file locations <br>
+edit backup.sh to add webhook url , where the logs will be saved and log file locations for the logs and the discord.sh <br>
 `nano backup.sh`
 </p>
 
 <p> 
 <h3>STEP3</h3>
-give backup.sh perms to run 
+give backup.sh and discord.sh perms to run 
 
-`$.sudo chmod +x backup.sh`
+`$.sudo chmod +x backup.sh ; sudo chmod +x discord.sh `
 
 </p>
 
