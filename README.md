@@ -55,4 +55,4 @@ sudo crontab
 </p>
 
 
-<p>webhook section of code from https://github.com/ChaoticWeg/discord.sh</p>
+<h2>webhook section of code from https://github.com/ChaoticWeg/discord.sh</h2>
