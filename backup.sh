@@ -31,7 +31,8 @@ archive_file="$hostname-1-$day.tgz"
 # Backup the files using tar.
 tar czf $dest/$archive_file $backup_files
 
-#webhook you must enter your webhook url here in the place where WEBHOOKURL is
+#################
+#webhook section below remove everything after this to not use webhook or comment out 
 
 $FILELOC/discord.sh \
   --webhook-url="$WEBHOOKURL" \
