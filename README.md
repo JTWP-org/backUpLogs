@@ -23,7 +23,7 @@ all the settings u need to edit will be at the top of the file
 <h3>STEP3</h3>
 give backup.sh and discord.sh perms to run 
 
-`$.sudo chmod +x backup.sh ; sudo chmod +x discord.sh `
+`sudo chmod +x backup.sh ; sudo chmod +x discord.sh `
 
 </p>
 
