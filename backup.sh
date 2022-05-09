@@ -6,8 +6,8 @@
 WEBHOOKURL='placeWebhookUrlHere'
 #Webhooks urls can be got from discord server
 
-FILELOC='where is backUpLogs-main located at'
-# I.E.  '/home/steam/backUpLogs-main'
+FILELOC='whereIsBackUpLogs located at'
+# I.E.  '/home/steam/backUpLogs'
 
 PAVSERVER='/home/steam/pavlovserver/Pavlov/Saved/Logs'
 # where the logs file is located '/home/steam/pavlovserver/Pavlov/Saved/Logs' if the default location if you used the wiki word for
