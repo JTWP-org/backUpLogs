@@ -1,6 +1,8 @@
 # backUpLogs
 automated tool to compress all logs and save every 24 hours
 
+<h1>this ended up being overly complicated and i ended up using another way but will leave this 
+
 
 
 <p>
