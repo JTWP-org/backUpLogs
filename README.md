@@ -2,6 +2,7 @@
 automated tool to compress all logs and save every 24 hours
 
 <h1>this ended up being overly complicated and i ended up using another way but will leave this 
+<p>i ended up making a blacklist link hosted to a webserver and just use that to overwrite thhe ban list on server 2 every 5 mins </p>
 
 
 
