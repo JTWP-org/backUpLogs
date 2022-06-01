@@ -24,7 +24,7 @@ backup_files="$PAVSERVER"
 dest="$LOGVLT"
 
 # Create archive filename.
-day=$(date +%A)
+day=$(date +"%m-%d-%y")
 hostname=$(hostname -s)
 archive_file="$hostname-1-$day.tgz"
 
